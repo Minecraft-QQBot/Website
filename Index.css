@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Courier, monospace;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body a {
+    color: black;
+    text-decoration: none;
+}
+
+body nav {
+    width: 100%;
+    height: 100px;
+    padding: 25px 60px;
+    position: fixed;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+body nav .left {
+    float: left;
+    width: 300px;
+}
+
+body nav .left span {
+    font-size: 20px;
+    margin-right: 0;
+    line-height: 27px;
+}
+
+body nav .left img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 25px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(100, 100, 100);
+}
+
+body nav .left a {
+    margin-right: 10px;
+    font-weight: lighter;
+    transition: all .5s;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+body nav .left a:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+body nav .right {
+    float: right;
+}
+
+body nav .right a img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+body nav .right a img:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+body main #home {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+body main #home .logo {
+    width: 30vh;
+    height: 30vh;
+}
+
+body main #home h1 {
+    font-size: 40px;
+}
+
+body main #home h1 span {
+    color: transparent;
+    background: linear-gradient(to left, #29b0f7, 30%, #4dd7b8);
+    background-clip: text;
+}
+
+body main #home p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+body main #home img {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+body main #home .buttons {
+    margin: 50px auto;
+
+}
+
+body main #home .buttons a {
+    width: 160px;
+    height: 40px;
+    transition: all .5s;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+body main #home .buttons a:first-child {
+    color: #FFFFFF;
+    background-color: #29b0f7;
+}
+
+body main #home .buttons a:first-child:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(150, 150, 150, 0.6);
+}
+
+body main #home .buttons a:last-child {
+    margin-left: 20px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+body main #home .buttons a:last-child:hover {
+    color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(150, 150, 150, 0.6);
+}
+
+
+body main #info {
+    /* background: linear-gradient(216deg,#E0C3FC 0%,#8EC5FC 64.25%); */
+    /* background-image:linear-gradient(-8deg,#fff1eb ,#ace0f9 100%) */
+    /* background-image:linear-gradient(135deg,#f5f7fa ,#c3cfe2 100%); */
+    background-color: #f5f7fa;
+    box-shadow: 0 0 10px #c3cfe2;
+    padding: 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body main #info .card {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all .5s;
+    max-width: max(25vw, 320px);
+    box-sizing: border-box;
+    border: #c3cfe2 1px solid;
+}
+
+body main #info .card:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+body main #info .card h2 {
+    margin: 0;
+}
