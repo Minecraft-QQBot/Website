@@ -179,3 +179,7 @@ body main #info .card:hover {
 body main #info .card h2 {
     margin: 0;
 }
+
+body main #info .card p {
+    color: rgba(0, 0, 0, 0.8);
+}
