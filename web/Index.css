@@ -183,6 +183,15 @@ body main #info .card h2 {
     margin: 0;
 }
 
+body main #info .card h2::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin-top: 5px;
+    background-color: #c3cfe2;
+}
+
 body main #info .card p {
     color: rgba(0, 0, 0, 0.8);
 }
