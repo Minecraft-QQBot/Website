@@ -88,8 +88,10 @@ body main #home {
 }
 
 body main #home .logo {
-    width: 30vh;
-    height: 30vh;
+    width: 20vh;
+    height: 20vh;
+    margin-top: 20vh;
+    margin-bottom: 20px;
 }
 
 body main #home h1 {
@@ -107,15 +109,27 @@ body main #home p {
     color: rgba(0, 0, 0, 0.6);
 }
 
-body main #home img {
+body main #home .server-type {
+    text-align: center;
+    display: inline-block;
+}
+
+body main #home .server-type img {
     width: 35px;
     height: 35px;
-    margin-left: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+body main #home .server-type span {
+    display: block;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 body main #home .buttons {
-    margin: 50px auto;
-
+    margin: 40px auto;
 }
 
 body main #home .buttons a {
@@ -185,10 +199,12 @@ body main #info .card h2 {
 
 body main #info .card h2::after {
     content: '';
-    display: block;
-    height: 1px;
     width: 80%;
-    margin-top: 5px;
+    height: 1px;
+    margin-top: 8px;
+    display: block;
+    position: relative;
+    right: 5px;
     background-color: #c3cfe2;
 }
 
