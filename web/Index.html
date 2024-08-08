@@ -15,64 +15,111 @@
         </div>
         <div>
           <a href="#home">首页</a>
+          <!-- <a href="#show">展示</a> -->
           <a href="https://docs-qqbot.ylmty.cc/">文档</a>
         </div>
       </div>
       <div class="right">
         <a href="https://github.com/Minecraft-QQBot/BotServer" target="_blank">
-          <img src="Assets/Github.svg" draggable="false">
+          <img src="Assets/Github.svg" draggable="false" />
         </a>
         <a href="https://qm.qq.com/q/dzN3HQpNoQ" target="_blank">
-          <img src="Assets/QQ.svg" draggable="false">
+          <img src="Assets/QQ.svg" draggable="false" />
         </a>
       </div>
     </nav>
     <main>
       <section id="home">
         <div>
-            <img src="Assets/Icon.png" draggable="false" class="logo">
-            <h1>Minecraft <span>QQBot</span></h1>
-            <p>一款连接 Minecraft 服务器的 QQ 机器人，功能强大，使用简单。</p>
-            <div class="server-type">
-              <img src="Assets/ServerLogos/McdReforged.svg" draggable="false" title="McdReforged">
-              <span>MCDR</span>
-            </div>
-            <div class="server-type">
-              <img src="Assets/ServerLogos/Fabric.png" draggable="false" title="Fabric">
-              <span>Fabric</span>
-            </div>
-            <div class="server-type">
-              <img src="Assets/ServerLogos/Spigot.png" draggable="false" title="Spigot">
-              <span>Spigot</span>
-            </div>
-            <div class="server-type">
-              <img src="Assets/ServerLogos/Paper.png" draggable="false" title="Paper">
-              <span>Paper</span>
-            </div>
-            <div class="server-type">
-              <img src="Assets/ServerLogos/Purpur.svg" draggable="false" title="Purpur">
-              <span>Purpur</span>
-            </div>
-            <div class="buttons">
-              <a href="#info">查看更多</a>
-              <a href="https://docs-qqbot.ylmty.cc/文档/快速开始.html">开始使用</a>
-            </div>
+          <img src="Assets/Icon.png" draggable="false" class="logo" />
+          <h1>Minecraft <span>QQBot</span></h1>
+          <p>一款连接 Minecraft 服务器的 QQ 机器人，功能强大，使用简单。</p>
+          <div class="server-type">
+            <img
+              src="Assets/ServerLogos/McdReforged.svg"
+              draggable="false"
+              title="McdReforged"
+            />
+            <span>MCDR</span>
+          </div>
+          <div class="server-type">
+            <img
+              src="Assets/ServerLogos/Fabric.png"
+              draggable="false"
+              title="Fabric"
+            />
+            <span>Fabric</span>
+          </div>
+          <div class="server-type">
+            <img
+              src="Assets/ServerLogos/Spigot.png"
+              draggable="false"
+              title="Spigot"
+            />
+            <span>Spigot</span>
+          </div>
+          <div class="server-type">
+            <img
+              src="Assets/ServerLogos/Paper.png"
+              draggable="false"
+              title="Paper"
+            />
+            <span>Paper</span>
+          </div>
+          <div class="server-type">
+            <img
+              src="Assets/ServerLogos/Purpur.svg"
+              draggable="false"
+              title="Purpur"
+            />
+            <span>Purpur</span>
+          </div>
+          <div class="buttons">
+            <a href="#info">查看更多</a>
+            <a href="https://docs-qqbot.ylmty.cc/文档/快速开始.html"
+              >开始使用</a
+            >
+          </div>
         </div>
       </section>
-      <section id="info">
+      <section class="info">
+        <label id="info"></label>
         <div class="card">
           <h2>功能丰富</h2>
-          <p>有查看玩家列表，发送指令，查看服务器信息，玩家信息，聊天等功能。同时也能监控服务器占用，可多服互联。给使用这提供了丰富的配置，可根据实际情况和自己的喜好自行调整。</p>
+          <p>
+            有查看玩家列表，发送指令，查看服务器信息，玩家信息，聊天等功能。同时也能监控服务器占用，可多服互联。给使用这提供了丰富的配置，可根据实际情况和自己的喜好自行调整。
+          </p>
         </div>
         <div class="card">
           <h2>使用简单</h2>
-          <p>提供了 WebUi 让使用者能够直观的配置机器人，并提供详细的文档，帮助用户快速上手。本机器人完全开源、免费，如有能力可自行修改，仅需请注明出处即可。</p>
+          <p>
+            提供了 WebUi
+            让使用者能够直观的配置机器人，并提供详细的文档，帮助用户快速上手。本机器人完全开源、免费，如有能力可自行修改，仅需请注明出处即可。
+          </p>
         </div>
         <div class="card">
           <h2>支持多样</h2>
-          <p>不仅可跨平台，也支持各种的 Minecraft 服务器端。目前已经实现了对 Spigot、McdReforged、Fabric、Paper、Bukkit 等服务器端的支持。</p>
+          <p>
+            不仅可跨平台，也支持各种的 Minecraft 服务器端。目前已经实现了对
+            Spigot、McdReforged、Fabric、Paper、Bukkit 等服务器端的支持。
+          </p>
         </div>
       </section>
+      <!-- <section class="show">
+        <label id="show"></label>
+        <dialog>
+          <div class="header">
+            <h2>服务器群</h2>
+          </div>
+          <div class="container">
+
+          </div>
+          <div class="bottom">
+            <input id="chat_input" type="text" placeholder="输入发送的文本">
+          </div>
+        </div>
+      </section> -->
     </main>
   </body>
+  <script src="Index.js"></script>
 </html>

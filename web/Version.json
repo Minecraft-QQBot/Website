@@ -1,0 +1,16 @@
+[
+    {
+        "version": "2.0.2",
+        "plugins": {
+            "spigot": "2.0.1",
+            "mcdreforged": "2.0.1"
+        }
+    },
+    {
+        "version": "2.0.1",
+        "plugins": {
+            "spigot": "2.0.1",
+            "mcdreforged": "2.0.1"
+        }
+    }
+]
